@@ -1,0 +1,28 @@
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  list-style-type: none;
+  font-size: 14px;
+}
+
+.transaction-item p {
+  flex: 1;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.transaction-item img.delete {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.transaction-item.failed {
+  background-color: #ffe6e6;
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.money-details-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 30px 0;
+}
+
+.balanceClass,
+.incomeClass,
+.expensesClass {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  flex: 1;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+}
