@@ -129,7 +129,7 @@ onSubmitFunc = event => {
         </div>
 
         <ExpenseDetails balance={balance} income={income} expenses={expenses} />
-
+  <div className='transaction-history'>
         <form onSubmit={this.onSubmitFunc} className="transaction-container">
           <h2 className="form-heading">Add Transaction</h2>
           <label className="input-label" htmlFor="title">Title</label>
@@ -165,7 +165,6 @@ onSubmitFunc = event => {
 
           <button type="submit" className="submit-button">Add</button>
         </form>
-
         <div className="trans-history-container">
           <h4>History</h4>
           <ul className="head-history">
@@ -184,6 +183,8 @@ onSubmitFunc = event => {
             ))}
           </ul>
         </div>
+        </div>
+        
       </div>
     )
   }

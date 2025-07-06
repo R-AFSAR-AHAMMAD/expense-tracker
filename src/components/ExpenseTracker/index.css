@@ -23,6 +23,11 @@
   margin-bottom: 30px;
   border-radius: 8px;
 }
+@media screen and (min-width: 768px) {
+  .transaction-container {
+    width: 50%;
+  }
+}
 
 .input-label {
   display: block;
@@ -54,6 +59,13 @@
   padding: 20px;
   border-radius: 8px;
 }
+@media screen and (min-width: 768px){
+  .trans-history-container {
+    width: 50%;
+    align-self: flex-start;
+    margin-left: 10px;
+  }
+}
 
 .head-history,
 .transaction-list {
@@ -73,4 +85,12 @@
 .head-history li {
   flex: 1;
   text-align: left;
+}
+@media screen  and (min-width:768px) {
+  .transaction-history{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
